@@ -4,6 +4,14 @@ import { Briefcase } from 'lucide-react';
 const Experience = () => {
   const experiences = [
     {
+      id: 0,
+      role: 'Stagiaire',
+      company: 'DATAPROTECT',
+      period: 'Juillet 2025 - Août 2025',
+      description: 'Stage à temps plein.',
+      technologies: ['IT Support', 'Réseaux']
+    },
+    {
       id: 1,
       role: 'Stagiaire',
       company: 'Union IT Services',
@@ -25,7 +33,7 @@ const Experience = () => {
       company: 'DAMANDIS',
       period: 'Mars 2022',
       description: 'Stage d\'initiation en entreprise.',
-      technologies: []
+      technologies: ['IT Support']
     }
   ];
 

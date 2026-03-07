@@ -11,12 +11,17 @@ const Skills = () => {
     {
       title: "Frameworks",
       icon: <LayoutTemplate className="text-primary-400" size={24} />,
-      skills: ["Symfony", "Django", "Laravel", "React", "Tailwind CSS"]
+      skills: ["Symfony", "Django", "Laravel", "React", "Tailwind CSS", "Vue.js", "Angular", "Firebase"]
     },
     {
       title: "Base de données",
       icon: <Database className="text-primary-400" size={24} />,
-      skills: ["MySQL", "Oracle", "T/SQL", "PostgreSQL"]
+      skills: ["MySQL", "Oracle", "T/SQL", "PostgreSQL", "MongoDB", "Redis", "Cassandra"]
+    },
+    {
+      title: "Backend & Java",
+      icon: <Code2 className="text-primary-400" size={24} />,
+      skills: ["Java Avancé", "Spring Boot", "Laravel", "Jakarta EE", "Architecture MVC/DAO"]
     },
     {
       title: "Conception des systèmes",

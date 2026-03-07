@@ -47,10 +47,10 @@ const Hero = () => {
               <Mail size={24} />
             </a>
             {/* Add LinkedIn / GitHub links here if they exist */}
-            <a href="#" className="text-slate-400 hover:text-primary-400 transition-colors" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/el-mehdi-el-bidaoui-3035a2196/" className="text-slate-400 hover:text-primary-400 transition-colors" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer">
               <Linkedin size={24} />
             </a>
-            <a href="#" className="text-slate-400 hover:text-primary-400 transition-colors" aria-label="GitHub">
+            <a href="https://github.com/MEHDIELBIDAOUI" className="text-slate-400 hover:text-primary-400 transition-colors" aria-label="GitHub">
               <Github size={24} />
             </a>
           </div>
