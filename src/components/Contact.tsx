@@ -1,5 +1,5 @@
 
-import { Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
+import { Mail, Phone, MapPin, ExternalLink, Github, Linkedin } from 'lucide-react';
 
 const Contact = () => {
   return (
@@ -35,6 +35,32 @@ const Contact = () => {
                 <p className="text-slate-400 text-sm mb-2">0772 88 55 70</p>
                 <span className="text-teal-400 text-sm font-medium flex items-center gap-1 group-hover:underline">
                   Appeler <ExternalLink size={14} />
+                </span>
+             </div>
+          </a>
+
+          <a href="https://github.com/MEHDIELBIDAOUI" target="_blank" rel="noopener noreferrer" className="card group flex items-start gap-4 hover:border-primary-500/50">
+             <div className="p-4 rounded-xl bg-slate-500/10 text-slate-400 group-hover:bg-slate-500 group-hover:text-dark-900 transition-colors">
+               <Github size={24} />
+             </div>
+             <div>
+                <h3 className="text-lg font-semibold text-white mb-1">GitHub</h3>
+                <p className="text-slate-400 text-sm mb-2">MEHDIELBIDAOUI</p>
+                <span className="text-slate-400 text-sm font-medium flex items-center gap-1 group-hover:underline">
+                  Voir le profil <ExternalLink size={14} />
+                </span>
+             </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/el-mehdi-el-bidaoui-3035a2196/" target="_blank" rel="noopener noreferrer" className="card group flex items-start gap-4 hover:border-primary-500/50">
+             <div className="p-4 rounded-xl bg-blue-500/10 text-blue-400 group-hover:bg-blue-500 group-hover:text-white transition-colors">
+               <Linkedin size={24} />
+             </div>
+             <div>
+                <h3 className="text-lg font-semibold text-white mb-1">LinkedIn</h3>
+                <p className="text-slate-400 text-sm mb-2">El Mehdi El Bidaoui</p>
+                <span className="text-blue-400 text-sm font-medium flex items-center gap-1 group-hover:underline">
+                  Voir le profil <ExternalLink size={14} />
                 </span>
              </div>
           </a>

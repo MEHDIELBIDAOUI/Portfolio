@@ -31,6 +31,8 @@ const Skills = () => {
   ];
 
   const certifications = [
+    "Exploratory Data Analysis for Machine Learning",
+    "React Basics",
     "Using Python to Access Web Data",
     "Interactivity with JavaScript",
     "HTML, CSS, and Javascript for Web Developers",
