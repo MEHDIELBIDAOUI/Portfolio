@@ -16,7 +16,7 @@ const Hero = () => {
             </span>
             Available for new opportunities
           </div>
-          
+
           <h1 className="text-5xl md:text-7xl font-bold leading-tight">
             Hi, I'm <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-teal-200">
@@ -60,14 +60,14 @@ const Hero = () => {
           <div className="relative w-72 h-72 md:w-96 md:h-96 animate-float-3d">
             {/* Glowing effect behind the image */}
             <div className="absolute inset-0 bg-gradient-to-tr from-primary-500/40 to-teal-500/40 rounded-[2rem] blur-2xl transform scale-105" />
-            
-            <img 
-               src="/profile.png" 
-               alt="Mehdi El Bidaoui" 
-               className="relative w-full h-full object-cover rounded-[2rem] border-2 border-primary-500/30 shadow-2xl z-10"
-               onError={(e) => {
-                 (e.target as HTMLImageElement).src = 'https://via.placeholder.com/400x400/0f172a/14b8a6?text=Profile+Image';
-               }}
+
+            <img
+              src="/profile.jpeg"
+              alt="Mehdi El Bidaoui"
+              className="relative w-full h-full object-cover rounded-[2rem] border-2 border-primary-500/30 shadow-2xl z-10"
+              onError={(e) => {
+                (e.target as HTMLImageElement).src = 'https://via.placeholder.com/400x400/0f172a/14b8a6?text=Profile+Image';
+              }}
             />
           </div>
         </div>
